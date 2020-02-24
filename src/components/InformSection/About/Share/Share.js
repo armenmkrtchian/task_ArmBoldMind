@@ -9,9 +9,7 @@ const Share = () => {
       <div className={classes.mediaIcons}>
         <div className={classes.facebookIcon}></div>
         <div className={classes.linkedinIcon}></div>
-      </div>
-      
-      
+      </div>     
     </div>
   )
 }

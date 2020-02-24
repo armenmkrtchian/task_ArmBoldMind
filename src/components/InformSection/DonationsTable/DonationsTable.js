@@ -52,7 +52,6 @@ const DonationsTable = () => {
     <div className={classes.DonationsTable}>  
       <div className={classes.donationsTitle}><h3>Donations</h3></div>
       {donators.map((donator) => {
-          // console.log('777', donator.name)
         return  <DonatorRow 
              key={donator.id}
              name={donator.name}
@@ -62,7 +61,6 @@ const DonationsTable = () => {
           />
         })
       }
-      
     </div>
   )
 }

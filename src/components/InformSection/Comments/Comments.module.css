@@ -5,7 +5,6 @@
   grid-template-areas: ". comments don .";
   justify-items: right;
   margin-top: 95px;
-
 }
 
 .comments {

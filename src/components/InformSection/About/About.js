@@ -9,11 +9,9 @@ const About = () => {
     <div className={classes.About}>
       <div className={classes.description}>
         <Description/>
-
       </div>
       <div className={classes.don}>
         <DonationsTable />
-  
       </div>
     </div>
   )

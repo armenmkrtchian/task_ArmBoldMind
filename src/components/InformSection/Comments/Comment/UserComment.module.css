@@ -9,8 +9,6 @@
   grid-row: 1/-1;
   grid-column: 1/2;
   width: auto;
-  
-  /* border: 1px olive solid; */
 }
 
 .year {
@@ -22,7 +20,6 @@
 .nameYear {
   grid-row: 1/2;
   grid-column: 2/3;
-  /* border: 1px olive solid; */
   font-size: 20px;
   font-weight: bold;
   margin-left: 30px;
@@ -31,7 +28,6 @@
 .userComment {
   grid-row: 2/3;
   grid-column: 2/4;
-  /* border: 1px olive solid; */
   font-size: 18px;
   margin-left: 30px;
 }
