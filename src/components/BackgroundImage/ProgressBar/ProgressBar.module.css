@@ -1,0 +1,82 @@
+.progressBar {
+  display: grid;
+  
+  grid-template-rows: repeat(2, auto);
+  width: auto;
+  height: 11px;
+  background-color: #ffffff;
+  border-radius: 25px;
+  margin-top: 32px;
+}
+
+.row1 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.8fr 1fr 3.5fr 4fr;
+ 
+  height: 11px;
+  grid-gap: 3px;
+  background-color: #ffffff;
+  
+  border-radius: 25px;
+}
+
+.row2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr 0.8fr 1fr 3.5fr 4fr;
+  
+}
+.workProgress {
+  grid-column: 4/6;
+  padding-left: 81px;
+}
+
+.progress_1 {
+  background-color: #F11B5D;
+  /* width: 130px; */
+  grid-row: 1/2;
+  border-radius: 25px 0 0 25px;
+}
+
+.progress_2 {
+  background-color: #F11B5D;
+  /* width: 250px; */
+  
+}
+
+.progress_3 {
+  background-color: #F11B5D;
+  /* width: 115px; */
+  
+}
+
+.progress_4 {
+  background-color: #F11B5D;
+  /* width: 135px; */
+  border-radius: 0 25px 25px 0;
+}
+
+.progress_5 {
+  background-color: #F11B5D47;
+  /* width: 450px; */
+  border-radius: 0 25px 25px 0;
+}
+
+.progress_6 {
+  background-color: #ffffff;
+  /* width: 500px; */
+  border-radius: 25px;
+}
+.collected {
+  grid-column: 6/7;
+}
+
+.collected div {
+  font-weight: 700;
+  font-size: 17px;
+}
+
+.workProgress div {
+  text-align: left;
+  font-weight: 700;
+  font-size: 17px;
+}

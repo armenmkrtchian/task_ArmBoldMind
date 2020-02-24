@@ -6,6 +6,7 @@ import DonatesNow from '../../UIElements/Buttons/DonatesNow'
 const GoalCard = () => {
     return (
         <div className={classes.goalCard}>
+
             <span className={classes.title}>Goal</span>
             <p className={classes.count}>$ 1150000
                 <span>of</span>
@@ -26,8 +27,9 @@ const GoalCard = () => {
                     <option value="euro">EURO</option>
                     <option value="amd">AMD</option>
                 </select>
-                <DonatesNow/>
+                
             </form>
+            <DonatesNow/>
             <div className={classes.canHelp}>
                 <span>Can help with anything else?</span>
                 <br/>

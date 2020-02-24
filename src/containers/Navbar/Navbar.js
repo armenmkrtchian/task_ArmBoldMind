@@ -48,11 +48,11 @@ class Navbar extends Component {
                         <li className={classes.comments}>
                             <NavLink to="/comments" >Comments</NavLink>
                         </li>
-                        <li className={classes.finish}><b>25 Nov</b>
-                            <div>Finish</div>
+                        <li className={classes.finishDate}><span>25 Nov</span>
+                            <div className={classes.finish}>Finish</div>
                         </li>
-                        <li className={classes.donators}><b>1982</b>
-                            <div>Donators</div>
+                        <li className={classes.donatorsQuantity}><span>1982</span>
+                            <div className={classes.donators}>Donators</div>
                         </li>
                         <li className={[visibleOrInvisible, classes.donatesnow].join(' ')}>
                             <DonatesNow/>
