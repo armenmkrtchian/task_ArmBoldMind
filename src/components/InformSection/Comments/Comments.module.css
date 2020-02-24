@@ -10,12 +10,14 @@
 .comments {
   grid-area: comments;
 }
+
 .don {
   grid-area: don;
 }
 
 .buttonLoad {
-  text-align: center;
+  text-align: left;
+  padding-left: 290px;
 }
 
 .buttonLoad button {
@@ -25,4 +27,34 @@
   border: none;
   background-color: #fff;
   font-weight: 700;
+}
+
+.input > input {
+  outline:none;
+  border: 1px solid #CFCFCF;
+  padding: 20px; 
+  font-size: 16px;
+}
+
+.input input::placeholder {
+  color: #9A9A9A;
+}
+
+.uploadedImage {
+  font-size: 18px;
+  color: #F11B5D;
+  margin-top: 23px;
+}
+
+.avatar {
+  background: url('../../../assets/imgs/adam.png') no-repeat;
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
+.writeComment {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 24px;
 }

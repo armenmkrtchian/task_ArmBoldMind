@@ -4,7 +4,7 @@ import React from 'react';
 
 const Avatar = props => {
   return (
-    <div  style={props.style}>
+    <div style={props.style}>
       <img
         src={props.imgPath}
         alt={props.name}  

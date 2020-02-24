@@ -5,7 +5,6 @@ import DonationsTable from '../DonationsTable/DonationsTable'
 import UserComment from './Comment/UserComment';
 
 
-
 const Comments = () => {
   const userComments = [
     {
@@ -67,9 +66,17 @@ const Comments = () => {
   ]
   return (
     <div className={classes.Comments}>
-      {/* for upload image functionality need to discuss which library can I use*/}
+      
       <div className={classes.comments}>
-        <p>46 comments</p>
+        <div className={classes.writeComment}>
+          <div className={classes.avatar}></div>
+          <div className={classes.input}>
+            <input type="text" placeholder="Write your comment..." size="100"/> 
+            <div className={classes.uploadedImage}>+ Upload image</div>
+          </div>
+        </div>
+            
+        <p><strong>46 comments</strong></p>
         {
           userComments.map((comment) => {
             return <UserComment 
