@@ -1,0 +1,14 @@
+.Description {
+  background-color: #fff;
+ 
+}
+
+.DonationsTable  {
+  padding-left: 15px;
+}
+
+.Description > p {
+  text-align: left;
+  /* font-size: 20px; */
+  
+}

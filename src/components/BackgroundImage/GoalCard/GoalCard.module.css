@@ -1,0 +1,96 @@
+.goalCard {
+  background-color: #FFFFFF;
+  box-shadow: 0px 3px 15px #00000029;
+  opacity: 1;
+  width: 100%;
+  height: 421px;
+  padding: 20px 32px;
+}
+
+h1 {
+  font: Black 50px/63px Circular;
+  letter-spacing: 0.5px;
+}
+
+.title {
+  text-align: left;
+  font: Book 18px/23px Circular;
+  letter-spacing: 0.18px;
+  color: #9A9A9A;
+}
+
+.count {
+  font-size: 50px;
+  letter-spacing: 0.5px;
+  color: #000;
+  text-align: left;
+  font-weight: 600;
+  margin: 0;
+}
+
+.count span {
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  font-weight: 100;
+}
+
+.raisedCount {
+  text-align: left;
+  font-size: 25px;
+  letter-spacing: 0.25px;
+  margin: 0;
+}
+
+.charity {
+  padding-top: 15px;
+  color: #777777;
+  text-align: left;
+}
+
+.star {
+  color: #f11b5d;
+}
+
+.foundation {
+  color: #000;
+  font-weight: 600;
+}
+
+.donationInput {
+  padding: 14px;
+  outline: none;
+  border: 1px solid #BFBFBF;
+  width: 90%;
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 42px;
+}
+
+.donationInput::placeholder {
+  color: #777777;
+}
+
+form {
+  position: relative;
+}
+
+.currency {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  right: 5%;
+  bottom: 73%;
+  border: none;
+  border-left: 1px solid #BFBFBF;
+  padding: 3px;
+}
+
+.canHelp {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.moreAbout {
+  font-weight: 600;
+}

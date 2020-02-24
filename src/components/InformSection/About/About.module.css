@@ -1,0 +1,18 @@
+.About {
+  background-color: #ffffff;
+  display: grid;
+  grid-template-columns: 215px 8fr 5fr 204px;
+  grid-template-areas: ". description don .";
+  justify-items: right;
+  margin-top: 95px;
+  
+}
+
+.description {
+  grid-area: description;
+ 
+}
+.don {
+  grid-area: don;
+}
+
