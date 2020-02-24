@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/task_ArmBoldMind/static/css/main.9aa5329f.chunk.css",
+    "main.js": "/task_ArmBoldMind/static/js/main.276a386e.chunk.js",
+    "main.js.map": "/task_ArmBoldMind/static/js/main.276a386e.chunk.js.map",
+    "runtime-main.js": "/task_ArmBoldMind/static/js/runtime-main.41bd6443.js",
+    "runtime-main.js.map": "/task_ArmBoldMind/static/js/runtime-main.41bd6443.js.map",
+    "static/js/2.2f2e4b99.chunk.js": "/task_ArmBoldMind/static/js/2.2f2e4b99.chunk.js",
+    "static/js/2.2f2e4b99.chunk.js.map": "/task_ArmBoldMind/static/js/2.2f2e4b99.chunk.js.map",
+    "index.html": "/task_ArmBoldMind/index.html",
+    "precache-manifest.eb4c04f4d51048ae9134f023bd2597f5.js": "/task_ArmBoldMind/precache-manifest.eb4c04f4d51048ae9134f023bd2597f5.js",
+    "service-worker.js": "/task_ArmBoldMind/service-worker.js",
+    "static/css/main.9aa5329f.chunk.css.map": "/task_ArmBoldMind/static/css/main.9aa5329f.chunk.css.map",
+    "static/js/2.2f2e4b99.chunk.js.LICENSE.txt": "/task_ArmBoldMind/static/js/2.2f2e4b99.chunk.js.LICENSE.txt",
+    "static/media/BackgroundImage.module.css": "/task_ArmBoldMind/static/media/maps-and-flags (5).284d8cdc.svg",
+    "static/media/Share.module.css": "/task_ArmBoldMind/static/media/linkedin (1).fcf5e8cb.svg",
+    "static/media/Footer.module.css": "/task_ArmBoldMind/static/media/twitter (1).a3c0c55b.svg",
+    "static/media/Header.module.css": "/task_ArmBoldMind/static/media/user (3).fea13984.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.41bd6443.js",
+    "static/js/2.2f2e4b99.chunk.js",
+    "static/css/main.9aa5329f.chunk.css",
+    "static/js/main.276a386e.chunk.js"
+  ]
+}
