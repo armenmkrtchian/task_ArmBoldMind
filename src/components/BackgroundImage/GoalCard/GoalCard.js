@@ -5,7 +5,7 @@ import DonatesNow from '../../UIElements/Buttons/DonatesNow'
 
 const GoalCard = () => {
     return (
-        <div className={classes.goalCard}>
+        <div className={classes.card}>
 
             <span className={classes.title}>Goal</span>
             <p className={classes.count}>$ 1150000

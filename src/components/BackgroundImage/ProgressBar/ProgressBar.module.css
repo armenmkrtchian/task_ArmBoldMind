@@ -32,38 +32,30 @@
 
 .progress_1 {
   background-color: #F11B5D;
-  /* width: 130px; */
   grid-row: 1/2;
   border-radius: 25px 0 0 25px;
 }
 
 .progress_2 {
-  background-color: #F11B5D;
-  /* width: 250px; */
-  
+  background-color: #F11B5D; 
 }
 
 .progress_3 {
   background-color: #F11B5D;
-  /* width: 115px; */
-  
 }
 
 .progress_4 {
   background-color: #F11B5D;
-  /* width: 135px; */
   border-radius: 0 25px 25px 0;
 }
 
 .progress_5 {
   background-color: #F11B5D47;
-  /* width: 450px; */
   border-radius: 0 25px 25px 0;
 }
 
 .progress_6 {
   background-color: #ffffff;
-  /* width: 500px; */
   border-radius: 25px;
 }
 .collected {
@@ -80,3 +72,53 @@
   font-weight: 700;
   font-size: 17px;
 }
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .workProgress {
+    grid-column: 4/6;
+    padding-left: 20px;
+    font-size: 9px;
+  }
+  .workProgress div {
+    text-align: left;
+    font-weight: 700;
+    font-size: 5px;
+  }
+
+  .collected {
+    font-size: 9px;
+  }
+  .collected div {
+    font-weight: 700;
+    font-size: 5px;
+  }
+}
+
+/* __________For Tablet Port__________ */
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .workProgress {
+    grid-column: 4/6;
+    padding-left: 20px;
+    font-size: 9px;
+  }
+  .workProgress div {
+    text-align: left;
+    font-weight: 700;
+    font-size: 5px;
+  }
+
+  .collected {
+    font-size: 9px;
+  }
+  .collected div {
+    font-weight: 700;
+    font-size: 5px;
+  } 
+}
+
+
