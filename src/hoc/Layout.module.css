@@ -1,6 +1,6 @@
 .layout {
   display: grid;
-  grid-template-rows: 83px 835px 95px 1300px 446px;
+  grid-template-rows: auto 835px auto auto auto;
 }
 
 

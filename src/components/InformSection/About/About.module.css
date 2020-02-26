@@ -1,18 +1,103 @@
 .About {
-  background-color: #ffffff;
-  display: grid;
-  grid-template-columns: 215px 8fr 5fr 204px;
-  grid-template-areas: ". description don .";
-  justify-items: right;
-  margin-top: 95px;
-  
+ display: grid;
+ grid-template-rows: auto auto;
+ grid-template-columns: 215px 2fr 1fr 204px;
+ grid-template-areas: ". description don .";
+ grid-column-gap: 25px;
+ justify-items: end;
+ margin-top: 100px;
+ margin-bottom: 150px;
 }
 
 .description {
   grid-area: description;
+  
+}
+.don {
+  grid-area: don;
+  
  
+}
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .About {
+    grid-template-columns: 5px auto 5px;
+
+    height: max-content;
+    justify-items: center;
+    font-size: 8px;
+    margin: 0;
+  }
+
+  .description {
+    font-size: 8px;
+  }
+ 
+  .don {
+    grid-row: 5/6;
+    justify-items: center;
+    grid-column: 2/3;
+   width: 200px;
+  }
+  
+}
+
+/* __________For Tablet Port__________ */
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .About {
+    grid-template-columns: 50px 1fr 50px;
+    justify-items: center;
+  }
+ 
+  .don {
+    grid-row: 2/3;
+    justify-items: center;
+    grid-column: 2/3;
+   
+  }
+}
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width:900px) {
+ .About {
+   grid-template-columns: 100px 1fr 100px;
+   justify-items: center;
+ }
+
+ .don {
+   grid-row: 2/3;
+   justify-items: center;
+   grid-column: 2/3;
+ }
+}
+
+/* __________For Desktop__________ */
+
+@media (max-width: 1700px) and (min-width: 1200px) {
+.About {
+  
+  display: grid;
+  grid-template-columns: 100px 2fr 1fr 100px;
+  grid-template-areas: ". description don .";
+  justify-items: end;
+  grid-column-gap: 20px;
+  margin-top: 10px;
+}
+
+.description {
+  grid-area: description;
 }
 .don {
   grid-area: don;
 }
+
+} 
+
+
 

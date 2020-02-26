@@ -34,3 +34,54 @@
   color: #A8A8A8;
 }
 
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .DonatorRow {
+    padding: 15px 5px;
+  }
+
+  .Name {
+    font-size: 10px;
+  }
+  
+  .Donate {
+    font-size: 10px;
+  }
+}
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width:900px) {
+  .DonatorRow {
+    padding: 7px 5px;
+  }
+  
+  .Name {
+    font-size: 15px;
+  }
+  
+  .Donate {
+    font-size: 12px;
+  }
+  
+}
+
+/* __________For Desktop__________ */
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .DonatorRow {
+    padding: 16px 7px;
+  }
+  
+  .Name {
+    font-size: 20px;
+  }
+  
+  .Donate {
+    font-size: 15px;
+  }
+  
+} 

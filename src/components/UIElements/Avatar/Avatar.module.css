@@ -1,0 +1,5 @@
+@media screen and (max-width: 600px) {
+  .avatarName {
+    font-size: 10px;
+  }
+}

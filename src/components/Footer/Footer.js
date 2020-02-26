@@ -14,7 +14,7 @@ const Footer = () => {
             <div className={classes.company}>
                 <h3>Company</h3>
                 <ul>
-                    <li>Home</li>
+                    <li >Home</li>
                     <li>Projects</li>
                     <li>Comunity</li>
                     <li>About us</li>
@@ -51,9 +51,9 @@ const Footer = () => {
                     </li>
                     <li>
                         <div className={classes.subscribeEmail}>
-                            <h3>Subscribe for new projects</h3>
-                            <form>
-                                <label htmlFor=""></label>
+                            <p>Subscribe for new projects</p>
+                            <form className={classes.subscribeForm}>
+                                
                                 <input type="text" id="fname" name="firstname" placeholder="Your email"/>
                                 <div className={classes.iconArrow}></div>
                             </form>
@@ -62,7 +62,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className={classes.address}>
-                <span>Address Line, Yerevan, RA, 374154</span>
+                <p>Address Line, Yerevan, RA, 374154</p>
             </div>
         </div>
     )

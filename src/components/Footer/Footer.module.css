@@ -9,6 +9,7 @@
   height: 446px;
   background: white;
   box-shadow: 0px -3px 17px #00000029;
+  padding-top: 70px;
 }
 
 a {
@@ -23,6 +24,7 @@ ul li {
   text-align: left;
   list-style-type: none;
   padding: 15px 0;
+  font-size: 20px;
 }
 
 .company {
@@ -117,4 +119,257 @@ input::placeholder {
 
 h3 {
   padding-bottom: 16px;
+}
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+ .footer{
+  display: grid;
+
+  grid-template-columns: 40px 1fr 1fr 1fr 1fr 40px; 
+  align-content: end;
+    grid-template-areas: 
+  ". contact company helpandsupport followus .";
+
+  height: 130px;
+  margin-top: 200px;
+  padding-top: 20px;
+  
+}
+
+ul li {
+  padding: 0;
+  font-size: 7px;
+}
+
+.company {
+  font-size: 7px;
+}
+
+.contact {
+  font-size: 7px;
+  padding: 0;
+  align-self: center;
+}
+
+
+.helpandsupport {
+  font-size: 7px;
+}
+
+.followus {
+  font-size: 7px;
+}
+
+.followus > h3 {
+  margin-bottom: -18px;
+}
+
+.address {
+  grid-column: 2 / -2;
+  padding: 5px 0;
+  font-size: 7px;
+}
+
+.followus input {
+    width: 100%;
+    font-size: 7px;
+}
+.subscribeForm {
+  width: 70px;
+}
+
+input::placeholder {
+  font-size: 5px;
+}
+
+.subscribeEmail {
+  font-size: 7px;
+  margin-top: 20px;
+}
+
+.iconArrow {
+  display: none;
+}
+
+.iconArrow:hover {
+  cursor: pointer;
+}
+
+.mediaIcons {
+  display: none; 
+}
+
+h3 {
+  padding-bottom: 5px;
+}
+
+}
+
+/* __________For Tablet Port__________ */
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .footer{
+    display:grid;
+    grid-template-columns: 25px 1fr 1fr 1fr 1fr 25px;
+    
+    align-content: end;
+      grid-template-areas: 
+    ". contact company helpandsupport followus .";
+  
+    height: 290px;
+    padding-top: 60px;
+    
+  }
+  
+  ul li {
+    padding: 3px 0;
+    font-size: 20px;
+  }
+  
+  .company {
+    font-size: 20px;
+  }
+  
+  .contact {
+    padding: 16px 0;
+    font-size: 10px;
+    justify-self: center;
+    align-self: center;
+  }
+  
+  .helpandsupport {
+    font-size: 20px;
+  }
+  
+  .followus {
+    font-size: 10px;
+  }
+  
+  .followus > h3 {
+    margin-bottom: -4px;
+    font-size: 10px;
+  }
+  
+  .address {
+    padding: 6px 0;
+    font-size: 20px;
+  }
+  
+  .followus input {
+      font-size: 5px;
+      width: 200px;
+  }
+  
+  input::placeholder {
+    font-size: 5px;
+  }
+  
+  .iconArrow {
+    display: none;
+  }
+  .mediaIcons {
+    display: none;
+  }
+  h3 {
+    padding-bottom: 4px;
+    font-size: 20px;
+  }
+}
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width:900px) {
+.footer{
+  grid-template-columns: 75px 1fr 1fr 1fr 1fr 80px; 
+  align-content: end;
+  grid-template-areas: 
+  ". contact company helpandsupport followus ."; 
+  margin-top: 25px;
+  padding-top: 20px;
+}
+
+ul li {
+  padding: 10px 0;
+}
+
+.contact {
+  padding: 32px 0;
+}
+
+.followus > h3 {
+  margin-bottom: -9px;
+}
+
+.address {
+  padding: 12px 0;
+}
+
+.followus input {
+    font-size: 10px;
+}
+
+input::placeholder {
+  font-size: 10px;
+}
+
+.iconArrow {
+  height: 15px; 
+  width: 26px;
+  right: 15px;
+}
+
+h3 {
+  padding-bottom: 8px;
+}
+}
+
+/* __________For Desktop__________ */
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .footer{
+    grid-template-columns: 80px 1fr 1fr 1fr 1fr 80px; 
+    align-content: end;
+    grid-template-areas: 
+    ". contact company helpandsupport followus ."; 
+  }
+  
+  ul li {
+    padding: 15px 0;
+  }
+  
+  .contact {
+    padding: 32px 0;
+  }
+  
+  .followus > h3 {
+    margin-bottom: -2px;
+  }
+  
+  .address {
+    padding: 12px 0;
+  }
+  
+  .followus input {
+      font-size: 15px;
+      border-bottom: 1px solid #9A9A9A;
+      font-family: 'Circular Book', sans-serif !important;
+  }
+  
+  input::placeholder {
+    font-size: 15px;
+  }
+  
+  .iconArrow {
+    height: 20px; 
+    width: 30px;
+    right: 13px;
+  }
+  
+  h3 {
+    padding-bottom: 8px;
+  }
 }

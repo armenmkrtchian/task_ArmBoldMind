@@ -9,3 +9,37 @@
 .donationsTitle {
   padding: 0 15px;
 }
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .DonationsTable {
+    height: 414px;
+    width: 200px;
+  }
+}
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width:900px) {
+  .DonationsTable {
+    height: 423px;
+    width: 282px;
+  }
+  
+  .donationsTitle {
+    padding: 0 10px;
+  }
+}
+
+/* __________For Desktop__________ */
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .DonationsTable {
+    height: 608px;
+    width: 382px;;
+  }
+} 
+

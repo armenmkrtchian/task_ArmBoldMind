@@ -17,9 +17,9 @@ class Layout extends React.Component {
             <div className={classes.layout}>
               <Header />
               <BackgroundImage />
-              {/* <Navbar />
+              <Navbar />
               <InformSection />
-              <Footer /> */}
+              <Footer />
             </div>     
           </Router>
         )

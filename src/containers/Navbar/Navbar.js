@@ -39,14 +39,14 @@ class Navbar extends Component {
         return (
                     <ul className={[nav, classes.navlinks].join(' ')}>
                         <li className={classes.about}>
-                            <NavLink to="/about">About</NavLink>
+                            <NavLink to="/about"><p>About</p></NavLink>
                         </li>
                         <li className={[visibleOrInvisible, classes.uptades].join(' ')}>
                             <NavLink to="/uptades" ><p>Uptades</p></NavLink></li>
                         <li className={[visibleOrInvisible, classes.gallery].join(' ')}>
                             <NavLink to="/gallery" ><p>Gallery</p></NavLink></li>
                         <li className={classes.comments}>
-                            <NavLink to="/comments" >Comments</NavLink>
+                            <NavLink to="/comments" ><p>Comments</p></NavLink>
                         </li>
                         <li className={classes.finishDate}><span>25 Nov</span>
                             <div className={classes.finish}>Finish</div>

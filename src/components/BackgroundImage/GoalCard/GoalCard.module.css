@@ -217,3 +217,61 @@ form {
   }
 }
 
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width: 900px) {
+  .card {
+    padding: 10px 16px;
+    width: 212px;
+    height: 282px;
+  }
+  
+  .title {
+    font-size: 9px;
+  }
+  
+  .count {
+    font-size: 25px;
+  }
+  
+  .count span {
+    font-size: 12px;
+  }
+  
+  .raisedCount {
+    font-size: 12px;
+  }
+  
+  .charity {
+    padding-top: 7px;
+  }
+ 
+  .donationInput {
+    padding: 7px;
+    font-size: 9px;
+    width: 125px;
+  }
+  
+  .currency {
+    padding: 5px;
+  }
+  
+  .canHelp {
+    font-size: 9px;
+    margin-top: 15px;
+  }
+  
+  .moreAbout {
+    font-size: 9px;
+  }
+  
+  select {
+    font-size: 9px;
+  }
+  
+  form {
+    border: 1px solid #BFBFBF;
+    margin-bottom: 20px;
+  }
+}
+

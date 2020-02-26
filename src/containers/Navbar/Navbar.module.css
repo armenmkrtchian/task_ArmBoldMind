@@ -88,3 +88,215 @@ li a.active {
 .donators {
   font-size: 16px;
 }
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .Navbar1 {
+    grid-template-columns: 5px 2fr 2fr 5fr 2fr 2fr ;
+    margin-bottom: 5px;
+  }
+  
+  .Navbar2 {
+    grid-template-columns: 5px 1fr 1fr 1fr 1fr 2fr 1fr 1fr  1fr;
+    margin-bottom: 5px;
+  }
+  
+  li a {
+    font-size: 7px;
+  }
+  .donatesnow {
+      grid-column: 7/ 10;
+      margin-top: 20px;
+  }
+
+  .about {
+    padding: 5px;
+  }
+  
+  .uptades {
+    padding: 5px;
+  }
+  
+  .gallery {
+    padding: 5px;
+  }
+  
+  .comments {
+    padding: 5px;
+  }
+  
+  .finishDate {
+    font-size: 6px;
+  }
+  
+  .donatorsQuantity {
+    font-size: 6px;
+  }
+
+  .finish {
+    font-size: 5px;
+  }
+  
+  .donators {
+    font-size: 5px;
+  }
+}
+
+/* __________For Tablet Port__________ */
+
+@media (max-width: 900px) and (min-width: 600px) {
+  .Navbar1 {
+    grid-template-columns: 70px 2fr 2fr 5fr 2fr 2fr 2fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .Navbar2 {
+    grid-template-columns: 50px 1fr 1fr 1fr 1fr 2fr 1fr 1fr 3fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  li a {
+    font-size: 10px;
+  }
+
+  .about {
+    padding: 5px;
+  }
+  
+  .uptades {
+    padding: 5px;
+  }
+  
+  .gallery {
+    padding: 5px;
+  }
+  
+  .comments {
+    padding: 5px;
+  }
+  
+  .finishDate {
+    font-size: 8px;
+  }
+  
+  .donatorsQuantity {
+    font-size: 9px;
+  }
+
+  .finish {
+    font-size: 5px;
+  }
+  
+  .donators {
+    font-size: 5px;
+  }
+}
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width: 900px) {
+  .Navbar1 {
+    grid-template-columns: 100px 2fr 2fr 5fr 2fr 2fr 2fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .Navbar2 {
+    grid-template-columns: 70px 1fr 1fr 1fr 1fr 2fr 1fr 1fr 3fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  li a {
+    font-size: 10px;
+  }
+
+  .about {
+    padding: 10px;
+  }
+  
+  .uptades {
+    padding: 10px;
+  }
+  
+  .gallery {
+    padding: 10px;
+  }
+  
+  .comments {
+    padding: 10px;
+  }
+  
+  .finishDate {
+    font-size: 12px;
+  }
+  
+  .donatorsQuantity {
+    font-size: 12px;
+  }
+
+  .finish {
+    font-size: 8px;
+  }
+  
+  .donators {
+    font-size: 8px;
+  }
+}
+
+/* __________For Desktop__________ */
+
+@media (max-width: 1500px) and (min-width: 1200px) {
+  .Navbar1 {
+    grid-template-columns: 100px 2fr 2fr 5fr 2fr 2fr 2fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  .Navbar2 {
+    grid-template-columns: 70px 1fr 1fr 1fr 1fr 2fr 1fr 1fr 3fr 1fr;
+    grid-gap: 5px;
+    margin-bottom: 5px;
+  }
+  
+  li a {
+    font-size: 20px;
+  }
+
+  .about {
+    padding: 10px;
+  }
+  
+  .uptades {
+    padding: 10px;
+  }
+  
+  .gallery {
+    padding: 10px;
+  }
+  
+  .comments {
+    padding: 10px;
+  }
+  
+  .finishDate {
+    font-size: 18px;
+  }
+  
+  .donatorsQuantity {
+    font-size: 18px;
+  }
+
+  .finish {
+    font-size: 14px;
+  }
+  
+  .donators {
+    font-size: 14px;
+  }
+}

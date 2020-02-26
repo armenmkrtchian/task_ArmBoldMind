@@ -58,3 +58,60 @@
   grid-template-columns: repeat(2, auto);
   grid-gap: 24px;
 }
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .Comments {
+    grid-template-columns: 5px auto 5px;
+    height: min-content;
+    justify-items: center;
+    font-size: 5px;
+  }
+  
+  .comments {
+    grid-area: comments;
+    grid-row: 1/5;
+    justify-items: center;
+    grid-column: 2/4;
+  }
+  
+  .don {
+    grid-row: 7/9;
+    justify-items: center;
+    grid-column: 2/4;
+    width: 200px;
+  }
+  
+  .buttonLoad {
+    padding-left: 90px;
+  }
+  
+  .buttonLoad button {
+    font-size: 5px;
+  }
+  .input {
+    width: 200px;
+  }
+
+  .input > input {
+    padding: 5px; 
+    font-size: 5px;
+    width: 200px;
+    margin-left: 20px;
+  }
+  
+  .uploadedImage {
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .writeComment {
+    display: grid;
+    grid-template-columns: repeat(2, 40px);
+    grid-gap: 2px;
+  }
+}

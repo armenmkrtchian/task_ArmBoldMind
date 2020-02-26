@@ -3,3 +3,9 @@
   display: grid; 
 }
 
+@media screen and (max-width:600px) {
+  .informSection {  
+    height: minmax(auto, 861px);
+  }
+ }
+

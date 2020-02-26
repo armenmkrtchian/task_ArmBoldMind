@@ -16,10 +16,12 @@
 
 @media screen and (max-width: 600px) {
   .button {
-    
-    width: 212px;
-    height: 25px;
-    font-size: 7px;
+    width: 120px;
+    height: 20px;
+    font-size: 3px;
+  }
+  .buttonCenter {
+    padding: 0 46px
   }
   
 }
@@ -33,3 +35,15 @@
     font-size: 7px;
   }
 }
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width:900px) {
+  .button {
+    width: 210px;
+    height: 30px;
+    font-size: 7px;
+  }
+}
+
+

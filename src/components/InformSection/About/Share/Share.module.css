@@ -2,7 +2,7 @@
   font-size: 25px;
   text-align: left;
   font-weight: 900;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .mediaIcons {
@@ -20,4 +20,40 @@
   background: url('../../../../assets/icons/linkedin\ \(1\).svg') no-repeat;
   width: 40px;
   height: 40px;  
+}
+
+/* -----------------------------------Media----------------------------------------------------------- */
+
+/* __________For Phones__________ */
+
+@media screen and (max-width: 600px) {
+  .share {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 900;
+    margin-top: 100px;
+  }
+  
+}
+
+/* __________For Tablet Landscape__________ */
+
+@media (max-width: 1200px) and (min-width:900px) {
+  .share {
+    font-size: 25px;
+    text-align: left;
+    font-weight: 900;
+    margin-top: 50px;
+  }
+}
+
+/* __________For Desktop__________ */
+
+@media (max-width: 1265px) and (min-width: 1200px) {
+  .share {
+    font-size: 15px;
+    text-align: left;
+    font-weight: 900;
+    margin-top: 20px;
+  }
 }
